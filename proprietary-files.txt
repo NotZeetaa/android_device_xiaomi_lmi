@@ -44,15 +44,15 @@ vendor/lib/rfsa/adsp/misound_res.bin
 vendor/firmware/tfa98xx.cnt
 
 # Audio hardware
-vendor/lib/hw/audio.primary.kona.so
+vendor/lib/hw/audio.primary.kona.so;MODULE=audio.primary.lmi
 vendor/lib/vndk/libxlog.so
-vendor/lib/liba2dpoffload.so
+vendor/lib/liba2dpoffload.so;MODULE=liba2dpoffload.lmi
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioroute_ext.so
 vendor/lib/libresampler.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
-vendor/lib64/hw/audio.primary.kona.so
-vendor/lib64/liba2dpoffload.so
+vendor/lib64/hw/audio.primary.kona.so;MODULE=audio.primary.lmi
+vendor/lib64/liba2dpoffload.so;MODULE=liba2dpoffload.lmi
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudioroute_ext.so
 vendor/lib64/libresampler.so
