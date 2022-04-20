@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_lmi.mk
+    $(LOCAL_DIR)/aicp_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_lmi-user \
-    havoc_lmi-userdebug \
-    havoc_lmi-eng
+    aicp_lmi-user \
+    aicp_lmi-userdebug \
+    aicp_lmi-eng
