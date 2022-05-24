@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_lmi.mk
+    $(LOCAL_DIR)/xdroid_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_lmi-user \
-    aosip_lmi-userdebug \
-    aosip_lmi-eng
+    xdroid_lmi-user \
+    xdroid_lmi-userdebug \
+    xdroid_lmi-eng
